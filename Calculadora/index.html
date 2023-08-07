@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <h2>Calculator Project by Daniel Sánchez</h2>
+    </nav>
+
+<div id="container">
+    <h1>Calculadora</h1>
+    <br>   
+    <!-- Numero A -->
+    <input type="number" id="numeroA" required><h3>Ingresa un número:</h3></input>
+
+    <!-- Numero B -->
+    <input type="number" id="numeroB"required><h3>Ingresa un número:</h3></input>
+
+    <!-- Menú de botones -->
+    <div class="container-2">
+        <!-- Botón Suma -->
+        <button id="suma" onclick="suma()">SUMAR (+)</button>
+        <br>
+        <!-- Botón Resta --> 
+        <button id="resta" onclick="resta()">RESTAR (-)</button>
+    </div>
+    <br>
+    <div class="container-2">
+        <!-- Botón Division -->
+        <button id="division" onclick="division()">División (/)</button>
+        <br>
+        <!-- Botón Multiplicación --> 
+        <button id="multiplicacion" onclick="multiplicar()">MULTIPLICAR (*)</button>
+
+    </div>
+            <!-- Resultado -->
+    <h1>Resultado:</h1><input id="resultado" ></input>
+
+</div>
+<br><br><br><br><br><br><br>
+<script src="script.js"></script>
+<footer>Programazion Software Company >> All right reserved 2023>> </footer>
+</body>
+</html>
+
+
