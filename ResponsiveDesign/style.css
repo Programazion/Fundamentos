@@ -1,0 +1,59 @@
+.cabecera{
+    background: linear-gradient(38deg, #7e576c, #0b4e8a);
+    color: #fafafa;
+    display: flex;
+    padding-left: 10%;
+    padding-top: 5%;
+    flex: 1;
+}
+.bloque1{
+    height: 100px;
+    width:   100vw;
+    background-size: cover;
+    background-image: url('logo.png') no-repeat 40% top;
+}.bloque2{ 
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    text-align: center;
+}
+h1 {
+    font-size: 4vw;
+    color: rgb(159, 184, 184);
+  }
+header{
+    background: linear-gradient(38deg, #b48da2, #3b72a5);
+    display:flex;
+    flex-direction: row;
+    border-style:double;
+    align-items: center;
+    flex: 3;
+}
+button{
+    
+    display:flex;
+    flex-direction: row;
+    flex: 3;
+    align-items: center;
+}
+.bloque3{
+    background: linear-gradient(38deg, #a8728f, #3b72a5);
+        color: #fafafa;
+        display: flex;
+        flex: 3;
+    }
+footer{
+    display: flex;
+    justify-content: center;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    background: linear-gradient(38deg, #990e58, #3b72a5);
+    color: #fafafa;
+    
+}
+h2{
+    padding-left: 5%;
+    color: rgb(252, 249, 249);
+}
